@@ -20,7 +20,7 @@ $monthNames = [
     9 => 'Septiembre', 10 => 'Octubre', 11 => 'Noviembre', 12 => 'Diciembre'
 ];
 ?>
-<a href="/crops.php" class="btn btn-link mb-3"><i class="bi bi-arrow-left"></i> Volver al listado</a>
+<a href="<?php echo BASE_URL; ?>/crops.php" class="btn btn-link mb-3"><i class="bi bi-arrow-left"></i> Volver al listado</a>
 
 <h1 class="h3 mb-1"><?php echo htmlspecialchars($crop['name']); ?></h1>
 <p class="text-muted mb-3"><?php echo htmlspecialchars($crop['category']); ?></p>

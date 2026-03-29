@@ -28,7 +28,7 @@ $crops = getAllCrops();
         <?php if (!empty($crop['description'])): ?>
           <p class="card-text small"><?php echo htmlspecialchars($crop['description']); ?></p>
         <?php endif; ?>
-        <a href="/crop.php?slug=<?php echo urlencode($crop['slug']); ?>" class="btn btn-sm btn-success">Ver ficha</a>
+        <a href="<?php echo BASE_URL; ?>/crop.php?slug=<?php echo urlencode($crop['slug']); ?>" class="btn btn-sm btn-success">Ver ficha</a>
       </div>
     </div>
   </div>

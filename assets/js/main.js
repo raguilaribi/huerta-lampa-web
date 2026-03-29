@@ -27,7 +27,7 @@ $(function () {
       return;
     }
 
-    $.post('/api/calc_fertilizer.php', {
+    $.post('api/calc_fertilizer.php', {
       crop_id: cropId,
       num_plants: numPlants,
       area_m2: areaM2

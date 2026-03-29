@@ -59,7 +59,7 @@ $actions = getActionsForMonth($monthParam, $cropIdParam ?: null);
     <div class="card mb-3" data-crop-id="<?php echo (int)$cid; ?>">
       <div class="card-header bg-light d-flex justify-content-between align-items-center">
         <span><i class="bi bi-flower3"></i> <strong><?php echo htmlspecialchars($cropName); ?></strong></span>
-        <a href="/crop.php?slug=<?php echo urlencode(getCropById((int)$cid)['slug']); ?>" class="btn btn-sm btn-outline-success">Ver ficha</a>
+        <a href="<?php echo BASE_URL; ?>/crop.php?slug=<?php echo urlencode(getCropById((int)$cid)['slug']); ?>" class="btn btn-sm btn-outline-success">Ver ficha</a>
       </div>
       <div class="card-body p-0">
         <table class="table table-sm mb-0 align-middle">

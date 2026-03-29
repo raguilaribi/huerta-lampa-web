@@ -69,8 +69,8 @@ if (!$actions) {
   <h2 class="h5">Resumen por especie y calendario anual</h2>
   <p>Puedes profundizar en el detalle de cada cultivo, ver el calendario de todo el año y usar la calculadora de fertilización para dimensionar insumos según número de plantas o superficie:</p>
   <ul>
-    <li><a href="/crops.php">Listado de cultivos y fichas de manejo</a></li>
-    <li><a href="/calendar.php">Calendario anual de labores</a></li>
+    <li><a href="<?php echo BASE_URL; ?>/crops.php">Listado de cultivos y fichas de manejo</a></li>
+    <li><a href="<?php echo BASE_URL; ?>/calendar.php">Calendario anual de labores</a></li>
   </ul>
 </div>
 
